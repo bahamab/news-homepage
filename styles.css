@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  padding-left: 14rem;
+  padding-right: 14rem;
+  padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+  display: grid;
+  justify-content: center;
+}
+
+.navbar {
+  height: 3rem;
+  width: 69rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.website-logo,
+.website-logo-link {
+  margin-left: 0;
+  height: 3rem;
+}
+
+.navbar-links a {
+  color: hsl(236, 13%, 42%);
+  text-decoration: none;
+  margin: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.navbar-links a:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.main-container {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 23rem 23rem 23rem;
+  grid-template-rows: 14rem 14rem 14rem;
+}
+
+.img-1 {
+  grid-row: 1;
+  grid-column: 1 / 2;
+  height: 18rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.menu-icon-close {
+  display: none;
+}
+
+.img-1-mobile {
+  display: none;
+}
+
+.new {
+  scale: 1.08;
+  color: hsl(36, 100%, 99%);
+  grid-row: 1;
+  grid-column: 3;
+  width: 20rem;
+  height: 28.5rem;
+  background-color: hsl(240, 100%, 5%);
+  position: relative;
+  top: 1.1rem;
+  left: 0.9rem;
+}
+.new-title {
+  color: hsl(35, 77%, 62%);
+  margin-top: 1.5rem;
+  margin-left: 1.25rem;
+  font-size: 2.5rem;
+}
+.new div a {
+  text-decoration: none;
+  color: hsl(36, 100%, 99%);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.new div a:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.new div p {
+  text-decoration: none;
+  color: hsl(233, 8%, 79%);
+  margin-top: 0.6rem;
+  width: 15.5rem;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+}
+
+.new div {
+  margin-left: 1.25rem;
+  margin-top: 1.75rem;
+  width: 17rem;
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  padding-bottom: 1.75rem;
+}
+
+.new div:nth-of-type(3) {
+  border-bottom: none;
+}
+
+.new div:nth-of-type(1) {
+  margin-top: 1.25rem;
+}
+
+.web-3-title {
+  font-size: 3rem;
+  width: 16rem;
+  grid-row: 2;
+  grid-column: 1;
+  position: relative;
+  top: 6rem;
+  font-weight: 800;
+}
+.web-3-p {
+  grid-row: 2;
+  grid-column: 2;
+  position: relative;
+  top: 6.5rem;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  width: 20rem;
+}
+.web-3-p a {
+  position: relative;
+  top: 2.5rem;
+  text-decoration: none;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.web-3-p a:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+.topic-1 img,
+.topic-2 img,
+.topic-3 img {
+  height: 7rem;
+  position: relative;
+  top: 5rem;
+}
+.topic-1 {
+  grid-row: 3;
+  grid-column: 1;
+  margin-top: 2rem;
+}
+.topic-2 {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: 2rem;
+}
+
+.topic-3 {
+  grid-row: 3;
+  grid-column: 3;
+  margin-top: 2rem;
+}
+
+.topic-1 p,
+.topic-2 p,
+.topic-3 p {
+  position: relative;
+  left: 6.5rem;
+  top: 0.75rem;
+  font-size: 0.92rem;
+  width: 14rem;
+  color: hsl(236, 13%, 42%);
+}
+
+.topic-1 a,
+.topic-2 a,
+.topic-3 a {
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  position: relative;
+  left: 6.5rem;
+  top: 0.25rem;
+  font-weight: 700;
+}
+
+.topic-1 a:hover,
+.topic-2 a:hover,
+.topic-3 a:hover {
+  color: hsl(5, 85%, 63%);
+}
+.topic-1 h2,
+.topic-2 h2,
+.topic-3 h2 {
+  position: relative;
+  left: 6.5rem;
+  bottom: 2rem;
+  margin-bottom: -2rem;
+  font-size: 2rem;
+  color: hsl(233, 8%, 79%);
+}
+
+.credit {
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.credit a {
+  color: steelblue;
+}
+
+@media all and (max-width: 1266px) {
+  body {
+    margin: auto;
+    padding-top: 8rem;
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 968px) {
+  body {
+    margin: auto;
+    padding-top: 10rem;
+  }
+
+  html {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 800px) {
+  body {
+    padding: 0;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  .navbar {
+    height: 3rem;
+    width: 28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+  #menu-icon-j {
+    display: block;
+    padding: 1rem;
+    padding-right: 0;
+  }
+
+  #menu-icon-close-j {
+    display: block;
+    top: 2rem;
+    left: 15rem;
+  }
+
+  /* .website-logo,
+  .website-logo-link {
+    margin-left: 0;
+    height: 3rem;
+  } */
+
+  #navbar-links-j {
+    margin: auto;
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    display: none;
+    height: 100%;
+    width: 20rem;
+    background-color: hsl(36, 100%, 99%);
+    z-index: 1;
+  }
+
+  .navbar-links a {
+    width: 5rem;
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    top: 11rem;
+    left: 2rem;
+    color: hsl(240, 100%, 5%);
+  }
+
+  .main-container {
+    margin-top: 3rem;
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 28rem;
+    grid-template-rows: 24.5rem 12rem 15rem 35rem 14rem 14rem 20rem;
+  }
+
+  .img-1 {
+    display: none;
+  }
+
+  .img-1-mobile {
+    display: block;
+    height: 24.5rem;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .new {
+    scale: 1.08;
+    color: hsl(36, 100%, 99%);
+    grid-row: 4;
+    grid-column: 1;
+    width: 26rem;
+    height: 34rem;
+    background-color: hsl(240, 100%, 5%);
+    position: relative;
+    top: 5rem;
+    left: 0.9rem;
+  }
+  .new-title {
+    color: hsl(35, 77%, 62%);
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+    font-size: 3rem;
+  }
+  .new div a {
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+    font-size: 1.55rem;
+  }
+  .new div a:hover {
+    color: hsl(35, 77%, 62%);
+  }
+
+  .new div p {
+    text-decoration: none;
+    color: hsl(233, 8%, 79%);
+    margin-top: 0.75rem;
+    width: 23rem;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+  }
+
+  .new div {
+    margin-left: 1.25rem;
+    margin-top: 1.75rem;
+    width: 23.25rem;
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    padding-bottom: 1.75rem;
+  }
+
+  .new div:nth-of-type(3) {
+    border-bottom: none;
+  }
+
+  .new div:nth-of-type(1) {
+    margin-top: 1.25rem;
+  }
+
+  .web-3-title {
+    font-size: 3.25rem;
+    width: 26rem;
+    grid-row: 2;
+    grid-column: 1;
+    position: relative;
+    top: 1rem;
+    font-weight: 800;
+  }
+  .web-3-p {
+    grid-row: 3;
+    grid-column: 1;
+    position: relative;
+    top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 27rem;
+  }
+  .web-3-p a {
+    position: relative;
+    top: 2.5rem;
+    text-decoration: none;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
+  .topic-1 img,
+  .topic-2 img,
+  .topic-3 img {
+    height: 9.45rem;
+    position: relative;
+    top: 8rem;
+  }
+  .topic-1 {
+    grid-row: 5;
+    grid-column: 1;
+    margin-top: 2rem;
+  }
+  .topic-2 {
+    grid-row: 6;
+    grid-column: 1;
+    margin-top: 2rem;
+  }
+
+  .topic-3 {
+    grid-row: 7;
+    grid-column: 1;
+  }
+
+  .topic-1 p,
+  .topic-2 p,
+  .topic-3 p {
+    position: relative;
+    left: 9.25rem;
+    top: 0.75rem;
+    font-size: 1.2825rem;
+    width: 18.9rem;
+    color: hsl(236, 13%, 42%);
+  }
+
+  .topic-1 a,
+  .topic-2 a,
+  .topic-3 a {
+    text-decoration: none;
+    color: hsl(240, 100%, 5%);
+    position: relative;
+    left: 9.25rem;
+    top: 0.25rem;
+    font-weight: 700;
+    font-size: 1.35rem;
+  }
+
+  .topic-1 a:hover,
+  .topic-2 a:hover,
+  .topic-3 a:hover {
+    color: hsl(5, 85%, 63%);
+  }
+  .topic-1 h2,
+  .topic-2 h2,
+  .topic-3 h2 {
+    position: relative;
+    left: 9.25rem;
+    bottom: 2rem;
+    margin-bottom: -2rem;
+    width: 5rem;
+    font-size: 2.7rem;
+    color: hsl(233, 8%, 79%);
+  }
+}
