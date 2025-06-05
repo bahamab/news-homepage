@@ -208,6 +208,7 @@ body {
 .topic-1 h2,
 .topic-2 h2,
 .topic-3 h2 {
+  width: 10rem;
   position: relative;
   left: 6.5rem;
   bottom: 2rem;
